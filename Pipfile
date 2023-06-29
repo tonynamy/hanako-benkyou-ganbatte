@@ -4,8 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+requests = "==2.31.0"
+tqdm = "==4.65.0"
 
 [dev-packages]
+black = "==23.3.0"
 
 [requires]
 python_version = "3.11"
